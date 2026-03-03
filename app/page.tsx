@@ -1,4 +1,5 @@
-﻿"use client";
+"use client";
+
 import React, { useMemo, useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { CheckCircle2, Play, Sparkles, Wand2 } from "lucide-react";
+
 const SCENARIOS = [
   {
     id: "C1_conflict_mediation",
@@ -370,5 +372,4 @@ export default function MinimalScenarioMVP() {
       </div>
     </div>
   );
-
 }
