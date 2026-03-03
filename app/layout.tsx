@@ -1,7 +1,6 @@
 import "./globals.css";
-
 export const metadata = {
-  title: "ARI — Scenario UI",
+  title: "ARI â€” Scenario UI",
   description: "Minimal MVP Scenario UI"
 };
 
@@ -11,4 +10,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>{children}</body>
     </html>
   );
+
 }
